@@ -5006,8 +5006,8 @@ body {
   border-bottom: 1px solid #bec8ce;
 }
 .text-serif {
-  font-family: "adobe-caslon-pro-i6", "adobe-caslon-pro", Georgia, "Times New Roman", Times, serif;
-  font-weight: 600 !important;
+  font-family: "adobe-caslon-pro", Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
 }
 .text-xs-left {
   text-align: left;
