@@ -1,0 +1,55 @@
+/* navbar */
+.app-navbar {
+  font-weight: 500;
+  letter-spacing: .05em;
+  position: absolute;
+}
+
+
+/* header block */
+.app-hero {
+  background-image: url(../img/hero.jpg);
+}
+
+
+/* portfolio grid block */
+.app-block-portfolio-grid .container {
+  margin-bottom: -60px;
+}
+.app-portfolio-grid .m-b {
+  margin-bottom: 10px !important;
+}
+@media (max-width: 768px) {
+  .app-portfolio-grid .m-b-lg {
+    margin-bottom: 40px !important;
+  }
+}
+
+
+/* general block overrrides */
+@media (max-width: 768px) {
+  .block .lead {
+    line-height: 1.3;
+  }
+  .block h3 {
+    line-height: 1.15;
+  }
+}
+
+
+/* general inverse overrides */
+.block-inverse .text-muted {
+  color: rgba(255, 255, 255, .7);
+}
+.block-inverse .block-bg-img {
+  background-color: transparent;
+}
+
+
+/* ie10+ */
+@media (min-width: 768px) {
+  .app-align-center {
+    display: flex;
+    align-items: center;
+  }
+}
